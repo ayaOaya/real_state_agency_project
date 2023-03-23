@@ -1,11 +1,10 @@
 @font-face {
-    font-family: myFont;
-    src: url();
+    font-family: other;
+    src: url(./assets/cfonts/Uncut-Sans-Medium.otf);
 }
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #E3E2E3;
+    font-family: other;
 }
