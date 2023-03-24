@@ -7,10 +7,12 @@
 
     .title{
         color: #272627;
+        opacity: 0;
     }
 
         .ul-container1{
             list-style-type: none;
+            opacity: 0;
            
             .li-container1 a{
                text-decoration: none;
@@ -21,6 +23,7 @@
 
         .ul-container2{
             list-style-type: none;
+            opacity: 0;
            
             .li-container2 a{
                text-decoration: none;
@@ -30,6 +33,6 @@
         }
 
 
-
+  
     
 }

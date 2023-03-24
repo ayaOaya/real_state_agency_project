@@ -1,9 +1,37 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./style.scss"
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
 
 export default function Header() {
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  useEffect(() =>{
+    gsap.to(".header-bg-img", { duration:1.4, scale:1,ease: "power4.out"})
+    var tl = gsap.timeline({repeat: 0, repeatDelay: 0});
+    tl.to(".header-bg-img", { delay:2, clipPath:"polygon(0% 42%, 100% 43%, 100% 100%, 0% 100%)"})
+    tl.to(".p1", { opacity:1, duration:1 ,clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)" })
+    tl.to(".p2", { opacity:1, duration:1 , clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)" })
+    tl.to(".title-flex-h1", { opacity:1, duration:1 , clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)" })
+    tl.to(".bottom-btns", { opacity:1, duration:1 })
+    tl.to(".circle", { scale:5, duration:1, ease:"bounce.out"
+   })
+  }, [])
+
+
+
+
+
+   function handleClick(event) {
+    event.preventDefault(); // prevent the link from navigating to a new page
+    gsap.to('.header', { duration: 1, opacity: 0 }); // animate the element using GSAP
+
+  } 
+  
   return (
     <>
+    <div className="wrapppp">
     <div className="header">
 
       <div className="title-flex">
@@ -20,7 +48,7 @@ export default function Header() {
           <div className="sm-box-ver"></div>
           <div className="a">A</div>
           <div className="g">G</div>
-          <div className="circle"></div>
+          <a href="/nextPage" onClick={handleClick}><div className="circle"></div></a>
           <div className="n">N</div>
 
         </div>
@@ -41,7 +69,7 @@ export default function Header() {
       </div>
       
     </div>
-
+    </div>
     </>
   )
 }
