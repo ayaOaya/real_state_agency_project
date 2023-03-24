@@ -6,9 +6,6 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 export default function NextPage() {
     gsap.registerPlugin(ScrollTrigger);
 
-    useEffect(() => {
-
-    })
   return (
     <>
     <div className="next-page">
