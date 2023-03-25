@@ -5,6 +5,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 import { delay } from 'framer-motion';
 import { motion } from "framer-motion"
 import { AnimatePresence } from 'framer-motion'
+import Contact from "../Contact/Contact"
 
 const transition = { duration:0.6, ease: [0.6, 0.01, -0.05, 0.9]}
 
@@ -19,9 +20,6 @@ export default function AboutGrid() {
         tl.to(".top-leftcorner", { opacity:1, duration:0.9 })
         tl.to(".img1-h2", { opacity:1, duration:0.9 })
         tl.to(".grid-h2", { opacity:1, duration:0.9, clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"})
-
-
-
     })
 
 
@@ -45,7 +43,7 @@ export default function AboutGrid() {
      <div className="texts">
      <div className="top-leftcorner">Expedita dolore ex, earum aspernatur incidunt.</div>
 
-     <h2 className="img1-h2">Where sustainblty <br /> meet affordablty</h2>
+     <h2 className="img1-h2">Where sustainblty <br /> meet affordablty.</h2>
 
      <div className="grid-h2">
       <p className="p1">Lorem ipsum consectetur  elit. Distinctio illum blanditiis sequi sunt  excepturi ad sint alias nulla nobis ipsa ab eius laboriosam, nisi officiis tempora commodi sapiente </p>
@@ -65,9 +63,17 @@ export default function AboutGrid() {
     </div>
      </div>
 
-
-
     </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /><br /><br /><br />
+    <br />
+    <br /><br /><br /><br />
+
+    <Contact />
     
     </>
   )

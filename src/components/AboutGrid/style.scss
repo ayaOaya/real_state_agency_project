@@ -26,8 +26,8 @@
         grid-area: 1 / 1 / 9 / 13;
         clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
         filter: brightness(80%);
-
     }
+
     .img2{
         background-image: url(../../../public/rent_agenyc_imgs/tide_trasher_x-nmNKNqbjsJM-unsplash.jpg);
         grid-area: 9 / 1 / 13 / 4;
@@ -36,6 +36,7 @@
         background-size: cover;
         background-position: center center;
     }
+
     .img3{
         background-image: url(../../../public/rent_agenyc_imgs/harmandeep-singh-aVpro_uNjzo-unsplash.jpg);
         grid-area: 9 / 4 / 13 / 7;
@@ -44,6 +45,7 @@
         background-size: cover;
         background-position: center center;
     }
+
     .img4{
         background-color: #afafaf;
         grid-area: 9 / 7 / 13 / 10;
@@ -70,6 +72,7 @@
             color: #005d96;
         }
     }
+
     .img5{
         background-image: url(../../../public/rent_agenyc_imgs/irfan-simsar-Hcge9Ao6O5g-unsplash.jpg);
         grid-area: 9 / 10 / 13 / 13;
@@ -79,7 +82,6 @@
         background-position: center center;
     }
     
-
    }
 
    .texts{
@@ -113,6 +115,7 @@
         opacity: 0;
 
     }
+    
    }
 
    .desc{

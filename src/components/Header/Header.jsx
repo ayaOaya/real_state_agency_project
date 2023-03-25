@@ -20,7 +20,7 @@ export default function Header() {
     tl.to(".p2", { opacity:1, duration:1 , clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)" })
     tl.to(".title-flex-h1", { opacity:1, duration:1 , clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)" })
     tl.to(".bottom-btns", { opacity:1, duration:1 })
-    tl.to(".circle", { scale:5, duration:1, ease:"bounce.out"})
+    tl.to(".circle", { scale:5, duration:1})
    
   }, [])
 
