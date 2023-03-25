@@ -37,12 +37,23 @@ function App() {
         <Route path='/about'> <About /> </Route>
       </Switch>
       <Footer />
-      <Link to="/about">About</Link>
-      <Link to="/">Header</Link>
+
+    <Link to="/about">ABout</Link>
+     
     </Router>
-    {/* <NextPage /> */}
+     <NextPage /> 
     </>
   )
 }
 
 export default App
+
+/* 
+
+here is what i need to do :
++ fix react router
++ use fm to the nextPage
++ edit the next page
++ finish the whole project
+
+*/
