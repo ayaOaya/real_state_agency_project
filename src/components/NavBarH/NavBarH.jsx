@@ -1,22 +1,19 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import "./style.scss"
-import gsap from 'gsap'
-import ScrollTrigger from 'gsap/ScrollTrigger'
 
+export default function NavBarH() {
+  return (
+    <>
 
-export default function Navbar() {
-  gsap.registerPlugin(ScrollTrigger);
-
-  useEffect(() =>{
+  {/* useEffect(() =>{
     gsap.to(".title", { opacity:1, duration:1, delay:4.6})
     gsap.to(".ul-container1", { opacity:1, duration:1, delay:4.9})
     gsap.to(".ul-container2", { opacity:1, duration:1, delay:5})
  
-  })
-  return (
-    <>
+  }) */}
+
   
-    <div className="navbar">
+    <div className="NavBarH">
     <h1 className="title">title</h1>
     <div className="links-container1">
       <ul className="ul-container1">
@@ -39,3 +36,6 @@ export default function Navbar() {
     </>
   )
 }
+
+        
+

@@ -30,18 +30,29 @@ function App() {
   return (
     <>
     <Router>
-      <Navbar />
-      
-      <Switch>
-        <Route path='/'> <Header /> </Route>
-        <Route path='/about'> <About /> </Route>
-      </Switch>
-      <Footer />
+       {/* <Navbar />  */}
 
-    <Link to="/about">ABout</Link>
+    <Link to="/about"></Link>
+    <Link to='/'></Link>
+   {/*  <Link to="/nextPage"></Link>
+    <Link to='/contact'></Link>
+    <Link to="/company"></Link> */}
+  
+
+    <Switch>
+
+    <Route path='/' exact> <Header /> </Route>
+    <Route path='/about' exact> <About /> </Route>
+    {/* <Route path='/nextPage' exact> <Header /> </Route>
+    <Route path='/contact' exact> <About /> </Route>
+    <Route path='/company' exact> <Header /> </Route> */}
+   
+
+     </Switch>
+{/* <Footer /> */}
      
     </Router>
-     <NextPage /> 
+     
     </>
   )
 }

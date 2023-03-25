@@ -1,0 +1,35 @@
+.NavBarH{
+    background-color: #E3E2E3;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: 2fr 1.8fr 1fr;
+    padding-top: 5px;
+
+    .title{
+        color: #272627;
+        opacity: 1;
+    }
+
+        .ul-container1{
+            list-style-type: none;
+            opacity: 1;
+           
+            .li-container1 a{
+               text-decoration: none;
+               color: #272627;
+               font-size: 12px;
+            }
+        }
+
+        .ul-container2{
+            list-style-type: none;
+            opacity: 1;
+           
+            .li-container2 a{
+               text-decoration: none;
+               color: #272627;
+               font-size: 12px;
+            }
+        }
+
+}

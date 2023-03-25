@@ -1,7 +1,186 @@
 .about{
-    position: absolute;
-    top: 0;
     background-color: #E3E2E3;
     color: #272627;
     height: 100vh;
+}
+    
+        .title-flex{
+            opacity: 1; 
+            display: flex;
+            flex-direction: row;
+           padding-top: 80px;
+           padding-bottom: 20px;
+            padding-left: 25px;
+    
+            .box{
+                height: 25px;
+                width: 25px;
+                background-color: #272627;
+                margin-top: 40px;
+            }
+    
+            .title-flex-h1{
+                padding-left: 13px;
+                font-size: 80px;
+                
+    
+            }
+        }
+    
+    
+        .border{
+           height: 4px;
+           width: 99.9vw;
+           background-color: #272627;
+           margin-bottom: 10px;
+           opacity: 1; ///////////
+          
+        }
+    
+    
+        .about-bg-img{
+            background-image: url(../../../public/rent_agenyc_imgs/willian-justen-de-vasconcellos-fg6xewunefo-unsplash.jpg);
+            height: 58.1vh;
+            background-size: cover;
+            background-position: center center;
+            filter: brightness(55%);
+            clip-path: polygon(0 3%, 100% 3%, 100% 100%, 0% 100%);
+           
+        }
+    
+        .wrapper{
+            padding: 0px 20px;
+            opacity: 1;  ///////
+    
+            .letters{
+                position: absolute;
+                top: 20rem;
+                display: flex;
+                flex-direction: row;
+                background-color: transparent;
+                color: #f2ff00;
+                font-weight: bolder;
+                font-size: 25px;
+            }
+    
+            .sm-box-hor{
+                height: 10px;
+                width: 25px;
+                background-color: #f2ff00;
+                margin-right: 16rem;
+                margin-top: 10px;
+            }
+            .sm-box-ver{
+                height: 25px;
+                width: 10px;
+                background-color: #f2ff00;
+                margin-right: 16rem;
+            }
+            .a{
+                margin-right: 16rem;
+    
+            }
+            .g{
+                margin-right: 16rem;
+    
+            }
+            .circle{
+                height: 25px;
+                width: 25px;
+                background-color: #f2ff00;
+                border-radius: 50%;
+                margin-right: 16rem;
+                transform: scale(1);
+    
+            }
+            
+    
+        }
+    
+        .bottom-conatainer{
+            position: absolute;
+            top: 40rem;
+            padding: 0 20px;
+            opacity: 1; ////////
+    
+    
+            .bottom-btns{
+                background-color: transparent;
+                color: #ffffff;
+                padding-bottom: 25px;
+                opacity: 1;
+    
+                .btn1{
+                    background-color: transparent;  
+                    border-radius: 5px;
+                    padding: 1px 30px;
+                    border-color: #ffffff; 
+                   margin-right: 15px;
+                }
+                .btn1 a{
+                    text-decoration: none;
+                    color: #ffffff;
+                }
+    
+                .btn2{
+                    background-color: transparent;  
+                    border-radius: 5px;
+                    padding: 1px 20px;
+                    border-color: #ffffff; 
+                }
+                .btn2 a{
+                    text-decoration: none;
+                    color: #ffffff;
+                }
+            }
+    
+    
+    
+            .bottom-texts{
+                display: flex;
+                flex-direction: row;
+                font-size: 12px;
+    
+                .p1{
+                    color: #f2ff00;
+                    width: 60%;
+                    padding-right: 8rem;
+                    
+                }
+    
+                .p2{
+                    color: #ffffff;
+                    width: 60%;
+                    padding-left: 18rem;
+                    opacity: 1;
+    
+    
+                }
+            }
+        
+  
+    
+   
+    
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

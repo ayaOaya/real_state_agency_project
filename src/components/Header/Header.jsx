@@ -4,6 +4,7 @@ import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import NextPage from "../NextPage/NextPage"
 import { motion } from "framer-motion"
+import Navbar from '../Navbar/Navbar'
 
 
 
@@ -29,6 +30,8 @@ export default function Header() {
 
   return (
     <>
+
+    <Navbar />
     <div className="wrapppp">
     <div className="header">
 
