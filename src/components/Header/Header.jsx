@@ -37,7 +37,7 @@ export default function Header() {
 
       <div className="title-flex">
         <div className="box"></div>
-        <h1 className="title-flex-h1">Company name</h1>
+        <h1 className="title-flex-h1">Property Advisors</h1>
       </div>
 
       <div className="border"></div>

@@ -1,0 +1,149 @@
+.AboutGrid{
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    opacity: 1;
+    height: 500vh;
+
+   .imgs-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+    height: 100vh;
+    width: 99vw;
+    padding: 0 25px;
+    opacity: 1;
+    cursor: pointer;
+    
+
+    .img1{
+        background-image: url(../../../public/rent_agenyc_imgs/rezvani-Bf19lMJvPmk-unsplash.jpg);
+       opacity: 0;
+        background-size: cover;
+        background-position: center center;
+        grid-area: 1 / 1 / 9 / 13;
+        clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
+        filter: brightness(80%);
+
+    }
+    .img2{
+        background-image: url(../../../public/rent_agenyc_imgs/tide_trasher_x-nmNKNqbjsJM-unsplash.jpg);
+        grid-area: 9 / 1 / 13 / 4;
+        opacity: 0;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+        background-size: cover;
+        background-position: center center;
+    }
+    .img3{
+        background-image: url(../../../public/rent_agenyc_imgs/harmandeep-singh-aVpro_uNjzo-unsplash.jpg);
+        grid-area: 9 / 4 / 13 / 7;
+        opacity: 0;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+        background-size: cover;
+        background-position: center center;
+    }
+    .img4{
+        background-color: #afafaf;
+        grid-area: 9 / 7 / 13 / 10;
+        opacity: 0;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+        background-size: cover;
+        background-position: center center;
+
+        .img-h6{
+            padding-top: 1rem;
+            padding-bottom: 2rem;
+            padding-left: 10px;
+            font-size: 10px;
+            color: #606060;
+    
+        }
+        .img-h3{
+            padding-left: 15px;
+            font-size: 20px;
+        }
+        .link{
+            padding-left: 15px;
+            padding-top: 7rem;
+            color: #005d96;
+        }
+    }
+    .img5{
+        background-image: url(../../../public/rent_agenyc_imgs/irfan-simsar-Hcge9Ao6O5g-unsplash.jpg);
+        grid-area: 9 / 10 / 13 / 13;
+        opacity: 0;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+        background-size: cover;
+        background-position: center center;
+    }
+    
+
+   }
+
+   .texts{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+
+    .top-leftcorner{
+        padding-left: 84rem;
+        padding-top: 1rem;
+        font-size: 10px;
+        opacity: 0;
+
+    }
+
+    .img1-h2{
+        padding-left: 3rem;
+        padding-top: 11rem;
+        font-size: 47px; 
+        opacity: 0;
+    }
+    .grid-h2{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        padding-left: 3rem;
+        padding-top: 30px;
+        font-size: 10px;
+        clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
+        opacity: 0;
+
+    }
+   }
+
+   .desc{
+    color: #282828;
+    padding-top: 21.5rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: row;
+
+    .desc1{
+        display: flex;
+        flex-direction: row;
+        
+        .desc1-h6-2{
+            padding-left: 14rem;
+            color: #606060;
+            font-size: 9px;
+        }
+    }
+
+    .desc2{
+        display: flex;
+        flex-direction: row;
+        padding-left: 1.9rem;
+        
+        .desc2-h6-2{
+            padding-left: 15rem;
+            color: #606060;
+            font-size: 9px;
+        }
+    }
+   }
+
+}

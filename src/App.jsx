@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar'
 import NextPage from './components/NextPage/NextPage'
 import Lenis from '@studio-freight/lenis';
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import { AnimatePresence } from 'framer-motion'
 
 const lenis = new Lenis({
   duration: 1.2,
@@ -38,7 +39,7 @@ function App() {
     <Link to='/contact'></Link>
     <Link to="/company"></Link> */}
   
-
+    <AnimatePresence exitBeforeEnte>
     <Switch>
 
     <Route path='/' exact> <Header /> </Route>
@@ -49,6 +50,7 @@ function App() {
    
 
      </Switch>
+     </AnimatePresence>
 {/* <Footer /> */}
      
     </Router>
