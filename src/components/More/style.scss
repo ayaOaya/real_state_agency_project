@@ -70,5 +70,28 @@
     }
 
   
+  
 }
+
+.bg-text-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 120rem;
+    padding: 5rem 25px ;
+    height: 120vh;
+    color: #fff;
+    
+    
+
+    .img-grid{
+        background-image: url(../../../public/rent_agenyc_imgs/david-andic-0jWqEDqnH-U-unsplash.jpg);
+        height: 80vh;
+        background-size: cover;
+    }
+    .text-h2-grid{
+        font-size: 60px;
+        padding-bottom: 40px;
+    }
+  }
 

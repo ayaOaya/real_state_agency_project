@@ -3,28 +3,41 @@ import "./style.scss"
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import Contact from "../Contact/Contact"
-
+import { useRef } from 'react'
 
 
 export default function More() {
     gsap.registerPlugin(ScrollTrigger);
+    const elementRef = useRef(null);
 
 
-    useEffect(()=>{
-
-
-        gsap.to(".more-bg", { opacity: 1,
-          scale: 1,
-          duration: 1,
-          scrollTrigger: {
-            trigger: ".more-bg",
-          },})  
+    useEffect(() => {
+      gsap.to(".more-bg", {
+        opacity: 1,
+        scale: 1,
+        duration: 1,
+        scrollTrigger: {
+          trigger: ".more-bg",
+        },
+      });
     
-
-
-
-
-    },[])
+      const element = elementRef.current;
+      const trigger = ScrollTrigger.create({
+        trigger: element,
+        start: 'top bottom',
+        end: 'bottom top',
+      });
+    
+      gsap.to(".bg-text-grid", {
+        backgroundColor: '#000000',
+        scrollTrigger: {
+          trigger: ".bg-text-grid",
+          start: 'top bottom',
+          end: 'bottom bottom',
+        }
+      });
+    }, []);
+    
   return (
     <>
     <div className='more'>
@@ -43,14 +56,42 @@ export default function More() {
         <div className="img-desc3">Celelebrate generations</div>
 
     </div>
+
+
+    {/* <div className="bg-text-grid">
+    <div className="bg-texts-titles">
+    <h2 className="text-h2-grid">New and achivebal</h2>
+    <p className="text-p-grid">Lorem ipsum,  sit amet consectetur adipisicing elit. Veritatis hic harum quod quis tenetur, recusandae ipsum officiis ratione soluta consequatur sit tempora nobis voluptatibus repellendus . Nulla ratione iusto totam.</p>
+    </div>
+    <div className="img-grid"></div>
+
+   </div> */}
+
+   {/* <Contact /> */}
+    </div>
     
-  
 
+    <div className="bg-text-grid" ref={elementRef}>
+    <div className="bg-texts-titles">
+    <h2 className="text-h2-grid">New and achivebal</h2>
+    <p className="text-p-grid">Lorem ipsum,  sit amet consectetur adipisicing elit. Veritatis hic harum quod quis tenetur, recusandae ipsum officiis ratione soluta consequatur sit tempora nobis voluptatibus repellendus . Nulla ratione iusto totam.</p>
+    </div>
+    <div className="img-grid"></div>
 
-  
-<Contact />
    </div>
+  
+
+
+  
+
+   
   
     </>
   )
 }
+
+/* to do:
+change the bg color only when it in view.
+add a component animation to the home page.
+
+*/
