@@ -1,0 +1,26 @@
+.grid-contact{
+    padding-top: 60rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .big-title{
+        font-size: 12rem;
+        padding-bottom: 10rem;
+    }
+
+    .p-h2{
+        padding-top: 5rem;
+        padding-left: 35px;
+
+
+        .p-contact{
+            padding-bottom: 4rem;
+            width: 90%;
+        }
+
+        .contact-h2{
+            font-size: 95px;
+            color: #315361;
+        }
+    }
+}

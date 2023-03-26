@@ -1,0 +1,74 @@
+.more{
+    position: absolute;
+    top: 60rem;
+    left: 5rem;
+    right: 5rem;
+
+
+    .change-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+
+
+        .more-h2{
+            font-size: 45px;
+        }
+        .desc-more{
+            padding-left: 4rem;
+            width: 30%;
+            font-size: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    .more-bg{
+        background-image: url(../../../public/rent_agenyc_imgs/yuri-gokoryan-rVUZ5LseVKo-unsplash.jpg);
+        height: 80vh;
+        background-size: cover;
+        background-position: center center;
+        margin-top: 40px;
+        filter: brightness(70%);
+        transform: scale(1.7);
+        //before
+        /* clip-path: polygon(100% 0%, 100% 84%, 100% 100%, 78% 100%, 0% 100%, 0% 0%); */
+
+        ///after
+       /*  clip-path: polygon(100% 0, 100% 84%, 78% 84%, 78% 100%, 0 100%, 0 0); */
+
+    }
+
+    .img-content{
+        position: absolute;
+        top: 37rem;
+        left: 2rem;
+        color: #fff;
+
+        .img-desc1{
+            font-size: 10px;
+            padding-bottom: 8px;
+        }
+        .img-desc2{
+            font-size: 20px;
+        }
+        .img-desc3{
+            font-size: 13px;
+        }
+    }
+
+    .plus-icon{
+        position: absolute;
+        top: 37.6rem;
+        left: 75rem;
+        font-size: 3rem;
+    }
+    .plus-icon a{
+        color: #151515d3;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+  
+}
+

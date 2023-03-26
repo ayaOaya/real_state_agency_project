@@ -5,6 +5,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 import NextPage from "../NextPage/NextPage"
 import { motion } from "framer-motion"
 import Navbar from '../Navbar/Navbar'
+import More from '../More/More'
 
 
 
@@ -69,15 +70,16 @@ export default function Header() {
         </div>
       </div>
       
+      
+<More />
+
+
     </div>
+  
     </div>
 
 
 
-
-    {/* <div className="another-section">
-      <h1>hello this is another section</h1>
-    </div> */}
     </>
   )
 }
