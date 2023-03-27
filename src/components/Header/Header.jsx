@@ -15,6 +15,7 @@ export default function Header() {
 
   useEffect(() =>{
     gsap.to(".header-bg-img", { duration:1.4, scale:1,ease: "power4.out"})
+    gsap.to(".letters", { opacity:1, duration:1, delay:1})
     var tl = gsap.timeline({repeat: 0, repeatDelay: 0});
     tl.to(".header-bg-img", { delay:2, clipPath:"polygon(0% 42%, 100% 43%, 100% 100%, 0% 100%)"})
     tl.to(".p1", { opacity:1, duration:0.6 ,clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)" })

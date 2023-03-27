@@ -80,7 +80,7 @@
     top: 120rem;
     padding: 5rem 25px ;
     height: 120vh;
-    color: #fff;
+   /*  color: #fff; */
     
     
 
@@ -95,3 +95,41 @@
     }
   }
 
+
+
+ /* :root {
+    --light: #fff;
+    --dark: #000;
+  }  */
+
+
+ /*  .wrapper{
+    --light: #fff;
+    --dark: #000;
+  }
+
+
+
+
+  .wrap{
+    background:var(--dark);
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  h1 {
+    text-align: center;
+  }
+  .section{
+    height:100vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .color-dark{
+    color:#fff;
+  }
+
+ */
