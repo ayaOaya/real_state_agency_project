@@ -6,6 +6,7 @@ import { delay } from 'framer-motion';
 import { motion } from "framer-motion"
 import { AnimatePresence } from 'framer-motion'
 import Contact from "../Contact/Contact"
+import Extra from '../Extra/Extra';
 
 const transition = { duration:0.6, ease: [0.6, 0.01, -0.05, 0.9]}
 
@@ -41,7 +42,7 @@ export default function AboutGrid() {
      </div>
 
      <div className="texts">
-     <div className="top-leftcorner">Expedita dolore ex, earum aspernatur incidunt.</div>
+     <div className="top-leftcorner">Expedita  ex, earum aspernatur incidunt.</div>
 
      <h2 className="img1-h2">Where sustainblty <br /> meet affordablty.</h2>
 
@@ -65,6 +66,10 @@ export default function AboutGrid() {
 
     </div>
 
+
+
+
+
     <br />
     <br />
     <br />
@@ -72,6 +77,9 @@ export default function AboutGrid() {
     <br /><br /><br /><br />
     <br />
     <br /><br /><br /><br />
+
+
+    <Extra />
 
     <Contact />
     

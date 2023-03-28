@@ -6,6 +6,7 @@ import NextPage from "../NextPage/NextPage"
 import { motion } from "framer-motion"
 import Navbar from '../Navbar/Navbar'
 import More from '../More/More'
+import Properties from '../Properties/Properties'
 
 
 
@@ -73,6 +74,7 @@ export default function Header() {
       
       
 <More />
+<Properties />
 
 
     </div>
