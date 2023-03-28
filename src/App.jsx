@@ -1,12 +1,9 @@
 import './App.css'
 import About from './components/About/About'
-import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Navbar from './components/Navbar/Navbar'
-import NextPage from './components/NextPage/NextPage'
 import Lenis from '@studio-freight/lenis';
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-import { AnimatePresence } from 'framer-motion'
 
 const lenis = new Lenis({
   duration: 1.2,
@@ -25,34 +22,20 @@ function raf(time) {
 }
 requestAnimationFrame(raf)
 
-
-   
 function App() {
   return (
     <>
     <Router>
-       {/* <Navbar />  */}
 
     <Link to="/about"></Link>
     <Link to='/'></Link>
-   {/*  <Link to="/nextPage"></Link>
-    <Link to='/contact'></Link>
-    <Link to="/company"></Link> */}
-  
-    <AnimatePresence exitBeforeEnte>
-    <Switch>
 
+    
+    <Switch>
     <Route path='/' exact> <Header /> </Route>
     <Route path='/about' exact> <About /> </Route>
-    {/* <Route path='/nextPage' exact> <Header /> </Route>
-    <Route path='/contact' exact> <About /> </Route>
-    <Route path='/company' exact> <Header /> </Route> */}
-   
-
      </Switch>
-     </AnimatePresence>
-{/* <Footer /> */}
-     
+
     </Router>
      
     </>
@@ -60,13 +43,3 @@ function App() {
 }
 
 export default App
-
-/* 
-
-here is what i need to do :
-+ fix react router
-+ use fm to the nextPage
-+ edit the next page
-+ finish the whole project
-
-*/

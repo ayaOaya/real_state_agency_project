@@ -4,7 +4,6 @@ import Contact from "../Contact/Contact"
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 
-
 gsap.registerPlugin(ScrollTrigger);
 export default function Properties() {
   useEffect(()=>{
@@ -21,7 +20,6 @@ export default function Properties() {
 
   return (
     <>
-
     <div className="properties">
         <div className="properties-paragraph">Lorem consectetur adipisicing elit.  eos, assumenda ipsum iste aliquid excepturi! Adipisci aliquid perferendis accusantium consectetur! Voluptatibus perferendis  consequatur . numquam necessitatibus aspernatur tempore.</div>
 
@@ -58,12 +56,7 @@ export default function Properties() {
         <div className="contact-property">
         <Contact />
         </div>
-
-        
-
-
     </div>
-
     </>
   )
 }

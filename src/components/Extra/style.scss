@@ -1,0 +1,22 @@
+.extra{
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: row;
+
+    .extra-img1{
+        background-image: url(../../../public/rent_agenyc_imgs/rezvani-Bf19lMJvPmk-unsplash.jpg);
+        height: 80vh;
+        width: 60vw;
+        margin-left: 10px;
+        background-size: cover;
+    }
+
+    .extra-titles{
+        padding-left: 20px;
+        width: 40%;
+
+        .title-h2{
+            padding-bottom: 15px;
+        }
+    }
+}

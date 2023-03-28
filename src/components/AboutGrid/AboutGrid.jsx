@@ -8,9 +8,6 @@ import { AnimatePresence } from 'framer-motion'
 import Contact from "../Contact/Contact"
 import Extra from '../Extra/Extra';
 
-const transition = { duration:0.6, ease: [0.6, 0.01, -0.05, 0.9]}
-
-
 export default function AboutGrid() {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -63,26 +60,18 @@ export default function AboutGrid() {
       </div>
     </div>
      </div>
-
     </div>
 
-
-
-
-
     <br />
     <br />
     <br />
     <br />
     <br /><br /><br /><br />
     <br />
-    <br /><br /><br /><br />
-
 
     <Extra />
 
-    <Contact />
-    
+    <Contact />  
     </>
   )
 }

@@ -8,11 +8,7 @@ import Navbar from '../Navbar/Navbar'
 import More from '../More/More'
 import Properties from '../Properties/Properties'
 
-
-
-
 export default function Header() {
-
 
   useEffect(() =>{
     gsap.to(".header-bg-img", { duration:1.4, scale:1,ease: "power4.out"})
@@ -26,10 +22,6 @@ export default function Header() {
     tl.to(".circle", { scale:5, duration:1})
    
   }, [])
-
-
-
-
 
   return (
     <>
@@ -71,18 +63,12 @@ export default function Header() {
           <p className="p2">Lorem ipsum  consectetur  elit. Magnam, asperiores, earum nihil accusantium  deserunt voluptatum rerum minus amet eos ratione eaque </p>
         </div>
       </div>
-      
-      
+
 <More />
+
 <Properties />
-
-
     </div>
-  
     </div>
-
-
-
     </>
   )
 }

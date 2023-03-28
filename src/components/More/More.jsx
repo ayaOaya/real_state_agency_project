@@ -30,9 +30,6 @@ useEffect(()=>{
   });
 })
 
-
-
-
   useEffect(() => {
     gsap.to(".more-bg", {
       opacity: 1,
@@ -62,9 +59,6 @@ useEffect(()=>{
           <div className="img-desc3">Celelebrate generations</div>
         </div>
       </div>
-
-
-
 
      {/*  <section class="wrap">
 
@@ -112,10 +106,6 @@ useEffect(()=>{
   </section>
 
   </div> */}
-
-
-
-  
     </>
   )
 }

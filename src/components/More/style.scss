@@ -31,12 +31,6 @@
         margin-top: 40px;
         filter: brightness(70%);
         transform: scale(1.7);
-        //before
-        /* clip-path: polygon(100% 0%, 100% 84%, 100% 100%, 78% 100%, 0% 100%, 0% 0%); */
-
-        ///after
-       /*  clip-path: polygon(100% 0, 100% 84%, 78% 84%, 78% 100%, 0 100%, 0 0); */
-
     }
 
     .img-content{
@@ -80,9 +74,6 @@
     top: 120rem;
     padding: 5rem 25px ;
     height: 120vh;
-   /*  color: #fff; */
-    
-    
 
     .img-grid{
         background-image: url(../../../public/rent_agenyc_imgs/david-andic-0jWqEDqnH-U-unsplash.jpg);
@@ -107,9 +98,6 @@
     --light: #fff;
     --dark: #000;
   }
-
-
-
 
   .wrap{
     background:var(--dark);
