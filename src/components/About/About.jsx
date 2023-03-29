@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react'
 import "./style.scss"
 import NavBarH from '../NavBarH/NavBarH'
-import { motion } from "framer-motion"
-import { AnimatePresence } from 'framer-motion'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import AboutGrid from '../AboutGrid/AboutGrid'

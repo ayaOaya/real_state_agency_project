@@ -26,16 +26,16 @@ export default function AboutGrid() {
     <div className="AboutGrid">
 
      <div className="imgs-grid">
-      <motion.div whileHover={{scale:1.02}} transition={transition} className="img1"></motion.div>
-      <motion.div whileHover={{scale:1.02}} transition={transition} className="img2 animation"></motion.div>
-      <motion.div whileHover={{scale:1.02}} transition={transition} className="img3 animation"></motion.div>
-      <motion.div whileHover={{scale:1.02}} transition={transition} className="img4 animation">
+      <motion.div whileHover={{scale:1.02}} className="img1"></motion.div>
+      <motion.div whileHover={{scale:1.02}} className="img2 animation"></motion.div>
+      <motion.div whileHover={{scale:1.02}} className="img3 animation"></motion.div>
+      <motion.div whileHover={{scale:1.02}} className="img4 animation">
         <h6 className='img-h6'>John smith</h6>
         <h3 className='img-h3'>3 Reasons to buy a <br /> luxurious house.</h3>
         <h6 className="link">Know more</h6>
 
       </motion.div>
-      <motion.div whileHover={{scale:1.02}} transition={transition}  className="img5 animation"></motion.div>
+      <motion.div whileHover={{scale:1.02}} className="img5 animation"></motion.div>
      </div>
 
      <div className="texts">
