@@ -37,9 +37,12 @@ useEffect(()=>{
       duration: 1,
       scrollTrigger: {
         trigger: ".more-bg",
+        start: 'top bottom',
+        end: 'top top',
+        scrub: true
+
       },
     });
-
   
   }, []);
 

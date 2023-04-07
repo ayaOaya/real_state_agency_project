@@ -145,8 +145,6 @@
             }
         }
 
-
-
         .bottom-texts{
             display: flex;
             flex-direction: row;
@@ -172,3 +170,14 @@
         }
     }
 }  
+
+.h6-header{
+    position: absolute;
+    top: 20rem;
+    left: 69rem;
+    opacity: 0;
+    z-index: 20;
+}
+.h6-header:hover{
+    cursor: pointer;
+}

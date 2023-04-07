@@ -12,9 +12,9 @@ export default function About() {
 
   useEffect(() =>{
     var tl = gsap.timeline({repeat: 0, repeatDelay: 0});
-    tl.to(".title-flex", { opacity:0})
-    tl.to(".letters",{ opacity:0})
-    tl.to(".bottom-conatainer",{opacity:0})
+    tl.to(".title-flex", { opacity:0, duration:0.2})
+    tl.to(".letters",{ opacity:0, duration:0.2})
+    tl.to(".bottom-conatainer",{opacity:0, duration:0.2})
     tl.to(".border",{clipPath:"polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%)"})
     tl.to(".about-bg-img", { clipPath:"polygon(100% 100%, 0% 100%, 0% 100%, 100% 100%)",opacity:0.9, duration:0.8})
   })

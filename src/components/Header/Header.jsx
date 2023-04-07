@@ -15,9 +15,11 @@ export default function Header() {
     tl.to(".header-bg-img", { delay:2, clipPath:"polygon(0% 42%, 100% 43%, 100% 100%, 0% 100%)"})
     tl.to(".p1", { opacity:1, duration:0.6 ,clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)" })
     tl.to(".p2", { opacity:1, duration:1 , clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)" })
-    tl.to(".title-flex-h1", { opacity:1, duration:1 , clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)" })
+    tl.to(".title-flex-h1", { opacity:1, duration:0.6 , clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)" })
     tl.to(".bottom-btns", { opacity:1, duration:1 })
     tl.to(".circle", { scale:5, duration:1})
+    tl.to(".h6-header", {opacity:1, duration:1})
+
    
   }, [])
 
@@ -34,6 +36,12 @@ export default function Header() {
       </div>
 
       <div className="border"></div>
+
+
+      {/*  */}
+
+      <h6 className='h6-header'>#f2ff00</h6>
+
 
       <div className="header-bg-img"></div>
       <div className="wrapper">
