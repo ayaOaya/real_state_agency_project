@@ -62,53 +62,6 @@ useEffect(()=>{
           <div className="img-desc3">Celelebrate generations</div>
         </div>
       </div>
-
-     {/*  <section class="wrap">
-
-      <div className="bg-text-grid section color-dark" data-color="dark" data-textcolor="#fff" >
-        <div className="bg-texts-titles">
-          <h2 className="text-h2-grid">New and achivebal</h2>
-          <p className="text-p-grid">Lorem ipsum,  sit amet consectetur adipisicing elit. Veritatis hic harum quod quis tenetur, recusandae ipsum officiis ratione soluta consequatur sit tempora nobis voluptatibus repellendus . Nulla ratione iusto totam.</p>
-        </div>
-        <div className="img-grid"></div>
-        </div>
-      
-  <div class="section color-dark" data-color="dark">
-    <h1>One</h1>
-  </div>
-  <div class="section color-light" data-color="light">
-    <h1>Two</h1>
-  </div>
-  <div class="section color-dark" data-color="dark">
-    <h1>Three</h1>
-  </div>
-  <div class="section color-light" data-color="light">
-    <h1>Four</h1>
-  </div>
-
-      </section> */}
-
-      {/* ///////////////////////////////////////////////////////////// */}
-
-
-{/* <div className="wrapper">
-<section class="wrap">
-
-<div class="section color-dark" data-color="dark">
-    <h1>One</h1>
-  </div>
-  <div class="section color-light" data-color="light">
-    <h1>Two</h1>
-  </div>
-  <div class="section color-dark" data-color="dark">
-    <h1>Three</h1>
-  </div>
-  <div class="section color-light" data-color="light">
-    <h1>Four</h1>
-  </div>
-  </section>
-
-  </div> */}
     </>
   )
 }
